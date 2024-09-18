@@ -34,31 +34,15 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
+    title: "Free Films and TV ",
+    description: "CYF's TV show DOM project: A dynamic, engaging starting point.",
+    image: "/images/projects/TV-series-site.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/mahendrabalal/tv-show-dom-project?tab=readme-ov-file",
+    previewUrl: "https://deploy-preview-1--cyf-mabalal-tv.netlify.app/",
   },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+
+  
 ];
 
 const ProjectsSection = () => {
