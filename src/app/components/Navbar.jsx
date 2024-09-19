@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -26,12 +27,17 @@ const Navbar = () => {
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link
-          href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
-        >
-          LOGO
+        {/* Logo with alt text */}
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo-no-background.png"  // Ensure this path is correct
+            alt="Website Logo"  // Add the alt text
+            height={100}  // Height in pixels
+            width={100}   // Width in pixels
+            priority     // Prioritizes loading for this image
+          />
         </Link>
+        
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
@@ -49,6 +55,7 @@ const Navbar = () => {
             </button>
           )}
         </div>
+
         <div className="menu hidden md:block md:w-auto" id="navbar">
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
