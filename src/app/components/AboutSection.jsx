@@ -42,9 +42,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-      <li>Full Stack Web Development - Ironhack</li>
-      <li>MSc in Finance - University of Bedfordshire</li>
-      <li>Responsive Web Development - freeCodeCamp</li>
+        <li>Full Stack Web Development - Ironhack</li>
+        <li>MSc in Finance - University of Bedfordshire</li>
+        <li>Responsive Web Development - freeCodeCamp</li>
       </ul>
     ),
   },
@@ -63,7 +63,17 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about1.jpg" alt="about-me" width={500} height={500} />
+        <div className="relative w-full h-500">
+          {/* Ensure the image file exists in the public/images directory */}
+          <Image
+            src="/images/about1.jpg"
+            alt="About Me"
+            layout="responsive"
+            width={500} // Specify the width
+            height={500} // Specify the height
+            priority // Mark as high priority for LCP
+          />
+        </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
