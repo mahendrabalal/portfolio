@@ -66,7 +66,7 @@ const AboutSection = () => {
         <div className="relative w-full h-500">
           {/* Ensure the image file exists in the public/images directory */}
           <Image
-            src="/images/about1.jpg"
+            src="/images/about1.JPG"
             alt="About Me"
             layout="responsive"
             width={500} // Specify the width
