@@ -41,7 +41,7 @@ const HeroSection = () => {
   Hire Me
 </Link>
      <a
-    href="/cv/cv-for-portfolio.docx"
+    href="/cv/cv-new.docx"
     className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white transition-colors duration-300"
     download
   >
