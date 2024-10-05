@@ -14,7 +14,7 @@ const projectsData = [
     gitUrl: "https://github.com/mahendrabalal/local-handicraft-frontend",
     previewUrl: "https://localhandicraft.netlify.app/",
   },
-  {
+   /*{
     id: 2,
     title: "Career-Builder Website",
     description: "User-friendly job search website for seekers and employers, enhancing efficiency.",
@@ -23,6 +23,7 @@ const projectsData = [
     gitUrl: "https://github.com/mahendrabalal/job-search-website",
     previewUrl: "https://careerbuilding.netlify.app",
   },
+  */
   {
     id: 3,
     title: "Bike Racing Game",
