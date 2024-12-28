@@ -21,8 +21,8 @@ const HeroSection = () => {
             {/* Animated Name and Title with white color */}
             <TypeAnimation
               sequence={[
-                "Mahendra Balal", 2000,  // Display your name for 2 seconds
-                "Full Stack Developer", 2000,  // Display title for 2 seconds
+                "Mahendra Balal", 2000,  
+                "Full Stack Developer", 2000,  
               ]}
               wrapper="span"
               speed={50}
@@ -41,7 +41,7 @@ const HeroSection = () => {
   Hire Me
 </Link>
      <a
-    href="/cv/cv-new.docx"
+    href="/cv/Mahendra_balal_resume.pdf"
     className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white transition-colors duration-300"
     download
   >
