@@ -42,8 +42,24 @@ const projectsData = [
     gitUrl: "https://github.com/mahendrabalal/tv-show-dom-project?tab=readme-ov-file",
     previewUrl: "https://deploy-preview-1--cyf-mabalal-tv.netlify.app/",
   },
-
-  
+  {
+    id: 5,
+    title: "Mental Wellness Apps",
+    description: "Free evidence-based mental health tools for anxiety, stress, burnout & loneliness — HIPAA-compliant and available worldwide.",
+    image: "/images/projects/mental-wellness-apps.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://mentalwellnessapps.com",
+    previewUrl: "https://mentalwellnessapps.com",
+  },
+  {
+    id: 6,
+    title: "Indoor Dog Park",
+    description: "Search 500+ climate-controlled indoor parks for dogs across the US. Find indoor dog parks with bars, training facilities, and more.",
+    image: "/images/projects/indoor-dog-park.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://indoordogpark.org",
+    previewUrl: "https://indoordogpark.org",
+  },
 ];
 
 const ProjectsSection = () => {
