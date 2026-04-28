@@ -48,7 +48,7 @@ const projectsData = [
     description: "Free evidence-based mental health tools for anxiety, stress, burnout & loneliness — HIPAA-compliant and available worldwide.",
     image: "/images/projects/mental-wellness-apps.png",
     tag: ["All", "Web"],
-    gitUrl: "https://mentalwellnessapps.com",
+    gitUrl: "https://github.com/mahendrabalal/mentalwellnessapps",
     previewUrl: "https://mentalwellnessapps.com",
   },
   {
@@ -57,7 +57,7 @@ const projectsData = [
     description: "Search 500+ climate-controlled indoor parks for dogs across the US. Find indoor dog parks with bars, training facilities, and more.",
     image: "/images/projects/indoor-dog-park.png",
     tag: ["All", "Web"],
-    gitUrl: "https://indoordogpark.org",
+    gitUrl: "https://github.com/mahendrabalal/indoor-dog-park",
     previewUrl: "https://indoordogpark.org",
   },
 ];
